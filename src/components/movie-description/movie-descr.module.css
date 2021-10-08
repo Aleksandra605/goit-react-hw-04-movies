@@ -1,0 +1,81 @@
+.description {
+  margin-left: 25px;
+}
+
+.sectionMovieDescr {
+  padding: 15px;
+}
+
+.title {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.h4 {
+  font-size: 14px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.movieContainer {
+  display: flex;
+  width: 800px;
+}
+
+.additional {
+  margin: 20px;
+}
+
+.descrList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cast {
+  text-decoration: none;
+  color: black;
+}
+
+.reviews {
+  text-decoration: none;
+  color: black;
+}
+
+.cast:hover,
+.cast:focus {
+  color: red;
+}
+
+.reviews:hover,
+.reviews:focus {
+  color: red;
+}
+
+.overview {
+  font-size: 11px;
+}
+
+.genres {
+  font-size: 11px;
+}
+
+.divLoader {
+  width: min-content;
+  height: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  color: rgb(72, 163, 185);
+}
+
+.btnGoBack {
+  margin-bottom: 10px;
+  width: 60px;
+  height: 25px;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

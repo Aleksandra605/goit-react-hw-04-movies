@@ -1,0 +1,33 @@
+.header {
+  border: 1px solid grey;
+  height: max-content;
+}
+
+.home {
+  padding: 10px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.movies {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.home:hover,
+.home:focus {
+  color: red;
+}
+
+.movies:hover,
+.movies:focus {
+  color: red;
+}
+
+.nav {
+  display: flex;
+  width: max-content;
+  margin-left: 15px;
+}

@@ -1,0 +1,53 @@
+.actorsList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.actor {
+  width: 150px;
+  margin: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.actorName {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.character {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.reviewsList {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.noReviews {
+  padding: 15px;
+}
+
+.authorName {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-size: 11px;
+}
+
+.divLoader {
+  width: min-content;
+  height: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  color: rgb(72, 163, 185);
+}
